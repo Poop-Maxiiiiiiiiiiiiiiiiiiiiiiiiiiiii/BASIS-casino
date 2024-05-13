@@ -1,6 +1,6 @@
 let ifWhite = true;
-let white = 500;
-let black = 500;
+let white = 300;
+let black = 300;
 update()
 function start()
 {
@@ -31,5 +31,5 @@ function blackk()
 function update()
 {
   document.getElementById("white").value = `${Math.floor(white/60)}:${white % 60}`;
-  socument.getElementById("black").value = `${Math.floor(black/60)}:${black % 60}`;
+  document.getElementById("black").value = `${Math.floor(black/60)}:${black % 60}`;
 }
