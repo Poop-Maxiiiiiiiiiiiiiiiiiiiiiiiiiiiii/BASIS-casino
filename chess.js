@@ -1,6 +1,7 @@
 let ifWhite = true;
 let white = 500;
 let black = 500;
+update()
 function start()
 {
   setInterval(function()
