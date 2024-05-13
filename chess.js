@@ -1,6 +1,6 @@
 let ifWhite = true;
-white = 500;
-black = 500;
+let white = 500;
+let black = 500;
 function start()
 {
   setInterval(function()
@@ -19,11 +19,11 @@ function start()
                 }
               },1000);
 }
-function white()
+function whitee()
 {
   ifWhite = true;
 }
-function black()
+function blackk()
 {
   ifWhite = false;
 }
