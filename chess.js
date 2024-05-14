@@ -1,9 +1,9 @@
 let ifWhite = true;
 let white = 300;
 let black = 300;
-update()
 function start()
 {
+  update();
   setInterval(function()
               {
                 if(ifWhite)
