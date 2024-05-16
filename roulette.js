@@ -9,12 +9,12 @@ const spinBtn = document.getElementById("spin-button");
 // Object that stores values of minimum and maximum angle for a value
 const rotationValues = 
 [
-    { minDegree: 0, maxDegree: 60, value: 1 },
-    { minDegree: 61, maxDegree: 120, value: 2 },
-    { minDegree: 121, maxDegree: 180, value: 3 },
-    { minDegree: 181, maxDegree: 240, value: 4 },
-    { minDegree: 241, maxDegree: 300, value: 5 },
-    { minDegree: 301, maxDegree: 360, value: 6 },
+    { minDegree: 0, maxDegree: 60, value: "BRUH" },
+    { minDegree: 61, maxDegree: 120, value: "GET RICKROLLED" },
+    { minDegree: 121, maxDegree: 180, value: "1 DBUCK" },
+    { minDegree: 181, maxDegree: 240, value: "LOL" },
+    { minDegree: 241, maxDegree: 300, value: "IDK" },
+    { minDegree: 301, maxDegree: 360, value: "LMAO" },
 ];
 
 // Size of each piece (all pieces are of equal size)
@@ -23,12 +23,12 @@ const data = [1, 1, 1, 1, 1, 1];
 // Background color for each piece
 let pieColors = 
 [
-    "#325AE4", // Dark blue
-    "#3F6DF0", // Lighter blue
-    "#325AE4", // Dark blue
-    "#3F6DF0", // Lighter blue
-    "#325AE4", // Dark blue
-    "#3F6DF0"  // Lighter blue
+    "#abcdef", // Dark blue
+    "#aaddad", // Lighter blue
+    "#abcdef", // Dark blue
+    "#aaddad",
+    "#abcdef", // Dark blue
+    "#aaddad"
 ];
 
 // Create the chart
