@@ -11,7 +11,7 @@ const rotationValues =
 [
     { minDegree: 0, maxDegree: 60, value: "BRUH" },
     { minDegree: 61, maxDegree: 120, value: "GET RICKROLLED" },
-    { minDegree: 121, maxDegree: 180, value: "1 DBUCK" },
+    { minDegree: 121, maxDegree: 180, value: "5 DBUCK" },
     { minDegree: 181, maxDegree: 240, value: "LOL" },
     { minDegree: 241, maxDegree: 300, value: "IDK" },
     { minDegree: 301, maxDegree: 360, value: "LMAO" },
