@@ -1,7 +1,6 @@
-function rickroll()
-{
-  window.location.href("https://www.bit.ly/the-power-of-link")
-}
+
+//window.location.href("https://www.bit.ly/the-power-of-link")
+
 // Get the wheel and spin button elements from the DOM
 const wheel = document.getElementById("wheel");
 const spinBtn = document.getElementById("spin-button");
