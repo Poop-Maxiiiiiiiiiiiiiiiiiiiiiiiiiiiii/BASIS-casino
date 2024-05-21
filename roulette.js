@@ -5,12 +5,12 @@ const spinBtn = document.getElementById("spin-button");
 // Object that stores values of minimum and maximum angle for a value
 const rotationValues = 
 [
-    { minDegree: 0, maxDegree: 60, value: 1 },
-    { minDegree: 61, maxDegree: 120, value: 2 },
-    { minDegree: 121, maxDegree: 180, value: 3 },
-    { minDegree: 181, maxDegree: 240, value: 4 },
-    { minDegree: 241, maxDegree: 300, value: 5 },
-    { minDegree: 301, maxDegree: 360, value: 6 },
+    { minDegree: 0, maxDegree: 60, value: "try again" },
+    { minDegree: 61, maxDegree: 120, value: "you won 1 coin!" },
+    { minDegree: 121, maxDegree: 180, value: "get rickrolled!" },
+    { minDegree: 181, maxDegree: 240, value: "get stickbugged:" },
+    { minDegree: 241, maxDegree: 300, value: "you won 3 coin!" },
+    { minDegree: 301, maxDegree: 360, value: "get DDos'd!" },
 ];
 
 // Size of each piece (all pieces are of equal size)
