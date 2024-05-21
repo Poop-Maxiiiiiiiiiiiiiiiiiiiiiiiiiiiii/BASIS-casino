@@ -4,14 +4,14 @@
   function shuffle(array)
   {
   	
-  	for(let i = array.length - 1; i > 0; i--)
+  	for(let i = 7; i > 0; i--)
       {
   		const j = Math.floor(Math.random() * (i + 1));
   			[array[i], array[j]] = [array[j], array[i]];
   	}
   }
   
-  function output()
+  function output(symbols)
   {
     shuffle(symbols);
     document.getElementById("slotone").innerHTML = symbol[0];
