@@ -19,12 +19,12 @@ const data = [1, 1, 1, 1, 1, 1];
 // Background color for each piece
 let pieColors = 
 [
-    "#325AE4", // Dark blue
-    "#3F6DF0", // Lighter blue
-    "#325AE4", // Dark blue
-    "#3F6DF0", // Lighter blue
-    "#325AE4", // Dark blue
-    "#3F6DF0"  // Lighter blue
+    "#abcdef",
+    "#ffdddd",
+    "#abcdef",
+    "#ffdddd",
+    "#abcdef",
+    "#ffdddd"
 ];
 
 // Create the chart
