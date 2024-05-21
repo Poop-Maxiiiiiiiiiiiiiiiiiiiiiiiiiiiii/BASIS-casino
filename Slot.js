@@ -13,11 +13,11 @@
   
   function output()
   {
-    shuffle();
+    shuffle(symbols);
     document.getElementById("slotone").innerHTML = symbol[0];
-    shuffle();
+    shuffle(symbols);
     document.getElementById("slottwo").innerHTML = symbol[0];
-    shuffle();
+    shuffle(symbols);
     document.getElementById("slotthree").innerHTML = symbol[0];
   }
 
