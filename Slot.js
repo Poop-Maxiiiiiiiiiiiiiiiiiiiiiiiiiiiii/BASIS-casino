@@ -19,4 +19,4 @@
     shuffle();
     document.getElementById("slotthree").innerHTML = symbol[0];
   }
-}
+
