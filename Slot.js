@@ -1,23 +1,15 @@
 
-  const symbols = ["🍕","🍟","🥘","🧆","🥖","🍔","🧀","🗿"];
-
-  function shuffle(array)
-  {
-  	
-  	for(let i = 7; i > 0; i--)
-      {
-  		const j = Math.floor(Math.random() * (i + 1));
-  			[array[i], array[j]] = [array[j], array[i]];
-  	}
-  }
   
-  function output(symbols)
+function spin()
+{
+  let symbols = ["🍕","🍟","🥘","🧆","🥖","🍔","🧀","🗿"];
+  let slot1 = symbols[Math.floor(Math.random() * symbols.length)];
+  let slot2 = symbols[Math.floor(Math.random() * symbols.length)];
+  let slot3 = symbols[Math.floor(Math.random() * symbols.length)];
+  let return = document.getElementByI("reutrn");
+  if (slot1 == slot2 && slot2 == slot3)
   {
-    shuffle(symbols);
-    document.getElementById("slotone").innerHTML = symbol[0];
-    shuffle(symbols);
-    document.getElementById("slottwo").innerHTML = symbol[0];
-    shuffle(symbols);
-    document.getElementById("slotthree").innerHTML = symbol[0];
+    return.innerHTML = `Wow! you won! you spun ${slot1}|${slot1}|${slot1}|`; 
   }
+}
 
