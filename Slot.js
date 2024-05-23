@@ -116,7 +116,7 @@ function spin()
                 document.getElementById('slot2').innerHTML = slot2;
                 document.getElementById('slot3').innerHTML = slot3;
 
-             },2000
+             },2200
   );
 
 
