@@ -14,7 +14,7 @@ const rotationValues =
 ];
 
 // Size of each piece (all pieces are of equal size)
-const data = [1, 1, 1, 1, 1, 1];
+const data = [ "try again", "get rickrolled!", "get stickbugged:" , "you won 3 coin!",  "you won 1 coin!", "get DDos'd!" ];
 
 // Background color for each piece
 let pieColors = 
