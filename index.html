@@ -3,13 +3,7 @@
       <meta charset="utf-8">
       <title>BISZ Casino</title>
       <link href="style.css" rel="stylesheet" type="text/css" />
-	  <audio controls autoplay>
-
-<source src="JohnDenver-TakeMeHomeCountryRoad.mp3" type="audio/mpeg">
-
-Your browser does not support the audio element.
-
-</audio>
+	  <audio controls autoplay src="JohnDenver-TakeMeHomeCountryRoad.mp3" type="audio/mpeg" style = "display:none;"></audio>
 
 
   </head>
@@ -24,6 +18,23 @@ Your browser does not support the audio element.
 		  Want to support the website maker? <a href = "https://bit.ly/the-power-of-link">Patreon</a><br>
 		  <h3>Want to exchange to candy?</h3><input type = "button" onclick = "window.location.href='https://poop-maxiiiiiiiiiiiiiiiiiiiiiiiiiiiii.github.io/BASIS-casino/exchangecarokhan'" value = "click here!">
 	  </div>
-	 <script src = script.js></script> 
+	 <script>
+		 
+Browsers will block autoplay because user has not interacted with website.
+It is best to use javascript and make a gameloop and do this:
+
+window.onload = setInterval(GameLoop, 1000 / 10); //10fps
+
+let myAudio = new Audio();
+
+myAudio.src = '="JohnDenver-TakeMeHomeCountryRoad.mp3';
+
+function Gameloop() {
+    myAudio.play();
+    if (myAudio.paused == true) {
+        myAudio.play();
+    }
+}
+	 </script> 
   </body>
 </html>
