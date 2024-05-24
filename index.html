@@ -20,17 +20,11 @@
 	  </div>
 	 <script>
 		 
-window.onload = setInterval(GameLoop(),10);
-let myAudio = new Audio();
+var x = document.getElementById("myAudio");
 
-myAudio.src = '="JohnDenver-TakeMeHomeCountryRoad.mp3';
-
-function Gameloop() {
-    myAudio.play();
-    if (myAudio.paused == true) {
-        myAudio.play();
-    }
+function playAudio() {
+  x.play();
 }
-	 </script> 
+playAudio();
   </body>
 </html>
