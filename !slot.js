@@ -11,17 +11,14 @@ function spin()
   document.getElementById('slot3').innerHTML = slot3;
   setTimeout(function()
              {
-               slot1 = symbols[Math.floor(Math.random() * symbols.length)];
-               slot2 = symbols[Math.floor(Math.random() * symbols.length)];
-               slot3 = symbols[Math.floor(Math.random() * symbols.length)];
-               document.getElementById('slot1').innerHTML = slot1;
+             document.getElementById('slot1').innerHTML = slot1;
                document.getElementById('slot2').innerHTML = slot2;
                document.getElementById('slot3').innerHTML = slot3;
                slot1 = symbols[Math.floor(Math.random() * symbols.length)];
-                slot2 = symbols[Math.floor(Math.random() * symbols.length)];
-                slot3 = symbols[Math.floor(Math.random() * symbols.length)];
-                document.getElementById('slot1').innerHTML = slot1;
-                document.getElementById('slot2').innerHTML = slot2;
+                slot4 = symbols[Math.floor(Math.random() * symbols.length)];
+                slot5 = symbols[Math.floor(Math.random() * symbols.length)];
+                document.getElementById('slot4').innerHTML = slot4;
+                document.getElementById('slot5').innerHTML = slot5;
                 document.getElementById('slot3').innerHTML = slot3;
                slot1 = symbols[Math.floor(Math.random() * symbols.length)];
                 slot2 = symbols[Math.floor(Math.random() * symbols.length)];
@@ -41,10 +38,10 @@ function spin()
                document.getElementById('slot2').innerHTML = slot2;
                document.getElementById('slot3').innerHTML = slot3;
                slot1 = symbols[Math.floor(Math.random() * symbols.length)];
-                slot2 = symbols[Math.floor(Math.random() * symbols.length)];
-                slot3 = symbols[Math.floor(Math.random() * symbols.length)];
-                document.getElementById('slot1').innerHTML = slot1;
-                document.getElementById('slot2').innerHTML = slot2;
+                slot4 = symbols[Math.floor(Math.random() * symbols.length)];
+                slot5 = symbols[Math.floor(Math.random() * symbols.length)];
+                document.getElementById('slot4').innerHTML = slot4;
+                document.getElementById('slot5').innerHTML = slot5;
                 document.getElementById('slot3').innerHTML = slot3;
                slot1 = symbols[Math.floor(Math.random() * symbols.length)];
                 slot2 = symbols[Math.floor(Math.random() * symbols.length)];
@@ -59,6 +56,15 @@ function spin()
   setTimeout(function()
              {
               
+              document.getElementById('slot1').innerHTML = slot1;
+               document.getElementById('slot2').innerHTML = slot2;
+               document.getElementById('slot3').innerHTML = slot3;
+               slot1 = symbols[Math.floor(Math.random() * symbols.length)];
+                slot4 = symbols[Math.floor(Math.random() * symbols.length)];
+                slot5 = symbols[Math.floor(Math.random() * symbols.length)];
+                document.getElementById('slot4').innerHTML = slot4;
+                document.getElementById('slot5').innerHTML = slot5;
+                document.getElementById('slot3').innerHTML = slot3;
                slot1 = symbols[Math.floor(Math.random() * symbols.length)];
                 slot2 = symbols[Math.floor(Math.random() * symbols.length)];
                 slot3 = symbols[Math.floor(Math.random() * symbols.length)];
@@ -71,6 +77,15 @@ function spin()
   setTimeout(function()
              {
                
+               document.getElementById('slot1').innerHTML = slot1;
+               document.getElementById('slot2').innerHTML = slot2;
+               document.getElementById('slot3').innerHTML = slot3;
+               slot1 = symbols[Math.floor(Math.random() * symbols.length)];
+                slot4 = symbols[Math.floor(Math.random() * symbols.length)];
+                slot5 = symbols[Math.floor(Math.random() * symbols.length)];
+                document.getElementById('slot4').innerHTML = slot4;
+                document.getElementById('slot5').innerHTML = slot5;
+                document.getElementById('slot3').innerHTML = slot3;
                slot1 = symbols[Math.floor(Math.random() * symbols.length)];
                 slot2 = symbols[Math.floor(Math.random() * symbols.length)];
                 slot3 = symbols[Math.floor(Math.random() * symbols.length)];
@@ -84,46 +99,75 @@ function spin()
   setTimeout(function()
              {
                
+             document.getElementById('slot1').innerHTML = slot1;
+               document.getElementById('slot2').innerHTML = slot2;
+               document.getElementById('slot3').innerHTML = slot3;
+               slot1 = symbols[Math.floor(Math.random() * symbols.length)];
+                slot4 = symbols[Math.floor(Math.random() * symbols.length)];
+                slot5 = symbols[Math.floor(Math.random() * symbols.length)];
+                document.getElementById('slot4').innerHTML = slot4;
+                document.getElementById('slot5').innerHTML = slot5;
+                document.getElementById('slot3').innerHTML = slot3;
                slot1 = symbols[Math.floor(Math.random() * symbols.length)];
                 slot2 = symbols[Math.floor(Math.random() * symbols.length)];
                 slot3 = symbols[Math.floor(Math.random() * symbols.length)];
                 document.getElementById('slot1').innerHTML = slot1;
                 document.getElementById('slot2').innerHTML = slot2;
                 document.getElementById('slot3').innerHTML = slot3;
-
              },1500
   );
   setTimeout(function()
              {
               
+             document.getElementById('slot1').innerHTML = slot1;
+               document.getElementById('slot2').innerHTML = slot2;
+               document.getElementById('slot3').innerHTML = slot3;
+               slot1 = symbols[Math.floor(Math.random() * symbols.length)];
+                slot4 = symbols[Math.floor(Math.random() * symbols.length)];
+                slot5 = symbols[Math.floor(Math.random() * symbols.length)];
+                document.getElementById('slot4').innerHTML = slot4;
+                document.getElementById('slot5').innerHTML = slot5;
+                document.getElementById('slot3').innerHTML = slot3;
                slot1 = symbols[Math.floor(Math.random() * symbols.length)];
                 slot2 = symbols[Math.floor(Math.random() * symbols.length)];
                 slot3 = symbols[Math.floor(Math.random() * symbols.length)];
                 document.getElementById('slot1').innerHTML = slot1;
                 document.getElementById('slot2').innerHTML = slot2;
                 document.getElementById('slot3').innerHTML = slot3;
-
              },1900
   );
 
   setTimeout(function()
              {
                
+            document.getElementById('slot1').innerHTML = slot1;
+               document.getElementById('slot2').innerHTML = slot2;
+               document.getElementById('slot3').innerHTML = slot3;
+               slot1 = symbols[Math.floor(Math.random() * symbols.length)];
+                slot4 = symbols[Math.floor(Math.random() * symbols.length)];
+                slot5 = symbols[Math.floor(Math.random() * symbols.length)];
+                document.getElementById('slot4').innerHTML = slot4;
+                document.getElementById('slot5').innerHTML = slot5;
+                document.getElementById('slot3').innerHTML = slot3;
                slot1 = symbols[Math.floor(Math.random() * symbols.length)];
                 slot2 = symbols[Math.floor(Math.random() * symbols.length)];
                 slot3 = symbols[Math.floor(Math.random() * symbols.length)];
                 document.getElementById('slot1').innerHTML = slot1;
                 document.getElementById('slot2').innerHTML = slot2;
                 document.getElementById('slot3').innerHTML = slot3;
+               slot4 = symbols[Math.floor(Math.random() * symbols.length)];
+                slot5 = symbols[Math.floor(Math.random() * symbols.length)];
+                document.getElementById('slot4').innerHTML = slot4;
+                document.getElementById('slot5').innerHTML = slot5;
 
              },2200
   );
 
 
   let returny = document.getElementById("reutrn");
-  if (slot1 == slot2 && slot2 == slot3)
+  if (slot1 == slot2 && slot2 == slot3 && slot4 == slot5 && slot3 = slot5)
   {
-    returny.innerHTML = `Wow! you won! you spun ${slot1}|${slot1}|${slot1}|`; 
+    returny.innerHTML = `Wow! you won! you spun ${slot1}|${slot2}|${slot3}|${slot4}|${slot5}|`; 
   }
   else
   {
