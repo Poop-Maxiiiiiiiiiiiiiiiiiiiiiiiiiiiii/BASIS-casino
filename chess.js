@@ -3,6 +3,7 @@ let white = 300;
 let black = 300;
 function start()
 {
+  clearInterval();
   update();
   setInterval(function()
               {
