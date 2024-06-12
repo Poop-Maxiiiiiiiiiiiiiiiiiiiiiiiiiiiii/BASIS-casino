@@ -1,6 +1,6 @@
 body {
 	border-radius: 10px;
-	font-family: Arial;
+	font-family: Comic Sans MS;
 	text-align: center;
 	background-color: #ffffcc;
 	color: #abcdef;
@@ -46,6 +46,7 @@ textarea {
 }
 .bottom
 {
+	position: fixed;
 	border: 15px solid #cfc;
 	color: #11bbff;
 	background-color: #cfc;
