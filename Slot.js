@@ -2,7 +2,7 @@
 
 function spin()
 {
-  let symbols = ["🍕","🍟","🥘","🧆","🥖","🍔","🧀","🗿"];
+  let symbols = ["💶","🔑","💳","💸","🤑","💵","🪙","💰","👑"];
   let slot1 = symbols[Math.floor(Math.random() * symbols.length)];
   let slot2 = symbols[Math.floor(Math.random() * symbols.length)];
   let slot3 = symbols[Math.floor(Math.random() * symbols.length)];
